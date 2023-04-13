@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 #include <chrono>
 
-const int SIZE_BIG = 300;
+const int SIZE_BIG = 1000;
 const int SIZE = 15;
 const int COUNT = 10;
 const int OPTIM_SIZE = 10;
@@ -22,7 +22,7 @@ long long checkTime(int* array, const int& size);
 int main() {
 
 	try {
-		int arr[SIZE];
+		int arr[SIZE_BIG];
 		int good_arr[SIZE] = { 1, 3, 2, 5, 7, 6, 4, 9, 11, 10, 13, 15, 14, 12, 8 };
 		char buf = 0;
 		while (buf != '5') {
